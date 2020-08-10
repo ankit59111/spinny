@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background-color: #1E76BF;
+  min-height: 100vh;
+}
+
+
+.App .search-form{
+  width: 100%;
+}
+
+.App .search-form .form-fields{
+  display: flex;
+}
+.App .search-form input{
+  background: rgba(255,255,255,0.05);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-left: 1px solid rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(255,255,255,0.4);
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  border-right: transparent;
+  width: 90vw;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 25px 0 25px 25px;
+}
+
+.App .search-form input:focus{
+  outline: none;
+}
+.App .search-form button{
+  background: rgba(255,255,255,0.05);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-right: 1px solid rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(255,255,255,0.4);
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  border-left: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  margin: 25px 25px 25px 0;
+}
+
+.App .cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 25px 20px 0 25px;
+}
+
+.App .request_details{
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+  margin: 10px 53px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.App .request_details span{
+  color: #fff;
+}
